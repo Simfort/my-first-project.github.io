@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 0 10px rgb(116, 114, 114);
+
+}
+
+.header__nav {
+    display: flex;
+    gap: 50px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.header__title {
+    color: rgb(0, 0, 0);
+    border: 2px solid rgba(0, 89, 255, 0.89);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.header__nav-link {
+    text-decoration: none;
+}
